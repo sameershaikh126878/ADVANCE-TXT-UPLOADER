@@ -1,18 +1,18 @@
 <h1 align="center">
-  🇮🇳 𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜 ᴛxᴛ ᴜᴘʟᴏᴀᴅᴇʀ 🇮🇳
+  🇮🇳 ᴛᴜsʜᴀʀ ᴛxᴛ ᴜᴘʟᴏᴀᴅᴇʀ 🇮🇳
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Txt+Uploader+Bot+!)
 
 ## Credit
 
-🥳 Credit Goes To [𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜](https://t.me/ASHIQI_092)
+🥳 Credit Goes To [Tushar](https://t.me/Tushar0125)
 
   
 ## 🔥 Commands
 
 - **`/start`**: ⚡ check bot is alive.
-- **`/sameerji`**:  📁 upload txt file.
+- **`/tushar`**:  📁 upload txt file.
 - **`/stop`**: 🛑 stop ongoing process.
 - **`/restart`**: 🔮 restart the bot.
 - **`/cookies`**: 🍪 upload cookies file.
