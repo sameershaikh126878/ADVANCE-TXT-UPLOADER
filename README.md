@@ -12,7 +12,7 @@
 ## 🔥 Commands
 
 - **`/start`**: ⚡ check bot is alive.
-- **`/tushar`**:  📁 upload txt file.
+- **`/sameerji`**:  📁 upload txt file.
 - **`/stop`**: 🛑 stop ongoing process.
 - **`/restart`**: 🔮 restart the bot.
 - **`/cookies`**: 🍪 upload cookies file.
