@@ -51,8 +51,7 @@ OWNER_ID = 5500536251 # Replace with the actual owner's user ID
 # List of sudo users (initially empty or pre-populated)
 SUDO_USERS = [7615363859,8144269730,7341059064,6440249117,5682377441,6148865829,1511257208,6947024366,5817712634,6013909736]
 
-AUTH_CHANNEL = -1002359983884,-1002499588221
-
+AUTH_CHANNEL = -1002359983884
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
     return user_id == OWNER_ID or user_id in SUDO_USERS or user_id == AUTH_CHANNEL
