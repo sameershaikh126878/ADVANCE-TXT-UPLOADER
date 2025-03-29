@@ -361,7 +361,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
     """
     user_id = message.chat.id
     if user_id != OWNER_ID:
-        await message.reply_text("**🚫 You are not authorized to use this command.\n\n🫠 This Command is only for owner.**")
+        await message.reply_text("**🚫 You are not authorized to use this command.\n\n🫠 This Command is only for owner 👉🏻 @A_S_9162 👈🏻.**")
         return
 
     # Request YouTube URL
@@ -400,7 +400,7 @@ async def list_users(client: Client, msg: Message):
 async def help_command(client: Client, msg: Message):
     help_text = (
         "`/start` - Start the bot⚡\n\n"
-        "`/tushar` - Download and upload files (sudo)🎬\n\n"
+        "`/sameerji` - Download and upload files (sudo)🎬\n\n"
         "`/restart` - Restart the bot🔮\n\n" 
         "`/stop` - Stop ongoing process🛑\n\n"
         "`/cookies` - Upload cookies file🍪\n\n"
@@ -496,7 +496,7 @@ async def upload(bot: Client, m: Message):
     
     
 
-    await editable.edit("📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤\n\n𝗘𝗴 » `𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜`")
+    await editable.edit("📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘 ➤\n\n𝗘𝗴 » `𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜`")
     input3: Message = await bot.listen(editable.chat.id)
     raw_text3 = input3.text
     await input3.delete(True)
@@ -630,13 +630,13 @@ async def upload(bot: Client, m: Message):
 
             try:  
 
-                cc = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜.mkv\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━'
-                #cpw = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜.mkv\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━━'
-                #cyt = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜.mp4\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━━'
-                cpvod = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜.mkv\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━━━━'
-                cimg = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜.jpg\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━'
-                cczip = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜.zip\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━'
-                cc1 = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.𝗦𝗔𝗠𝗘𝗘𝗥 𝗝𝗜.pdf\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━'
+                cc = f'**[🎞] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🍁𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}). @SAMEER_OFFICAL_092.mkv\n\n\n**<pre><code>📚𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━'
+                #cpw = f'**[🎞] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🍁𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}). @SAMEER_OFFICAL_092.mkv\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━━'
+                #cyt = f'**[🎞] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🍁𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}). @SAMEER_OFFICAL_092.mp4\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━━'
+                cpvod = f'**[🎞] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🍁𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}). @SAMEER_OFFICAL_092.mkv\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━━━━'
+                cimg = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🌱𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}. @SAMEER_OFFICAL_092.jpg\n\n\n**<pre><code>📚𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━'
+                cczip = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🌱𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}. @SAMEER_OFFICAL_092.zip\n\n\n**<pre><code>📚𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━'
+                cc1 = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🌱𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}. @SAMEER_OFFICAL_092.pdf\n\n\n**<pre><code>📚𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝐄𝐗𝐓𝐑𝐀𝐂𝐓𝐄𝐃 𝐁𝐘** ➤  **『{raw_text3}』**\n\n━━━━━✦𝗗𝗢𝗖𝗧𝗢𝗥❤️✦━━━━━'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
