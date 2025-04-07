@@ -631,13 +631,13 @@ async def upload(bot: Client, m: Message):
 
             try:  
 
-                cc = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).@CHAT_WITH_SAMEER_BOT.mkv\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
-                #cpw = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).@CHAT_WITH_SAMEER_BOT.mkv\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
-                #cyt = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).@CHAT_WITH_SAMEER_BOT.mp4\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
-                cpvod = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.({res}).@CHAT_WITH_SAMEER_BOT.mkv\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
-                cimg = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.@CHAT_WITH_SAMEER_BOT.jpg\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
-                cczip = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.@CHAT_WITH_SAMEER_BOT_JB.zip\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
-                cc1 = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**☘️𝗧𝗶𝘁𝗹𝗲 𝗡𝗮𝗺𝗲** ➤ {name1}.@CHAT_WITH_SAMEER_BOT.pdf\n\n\n**<pre><code>📚𝗕𝗮𝘁𝗰𝗵 𝗡𝗮𝗺𝗲** ➤ **{b_name}</code></pre>**\n\n\n**📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆** ➤  **{raw_text3}**'
+                cc = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🌺 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘** ➥ {name1}.({res}).@CHAT_WITH_SAMEER_BOT.mkv\n\n\n**<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➺ **{b_name}</code></pre>**\n\n\n**📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘** જ⁀➴  **{raw_text3}**\n\n∘₊✧───𝗦𝗔𝗠𝗘𝗘𝗥 𝗕𝗛𝗬𝗬𝗔───✧₊∘'
+                #cpw = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🌺 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘** ➥ {name1}.({res}).@CHAT_WITH_SAMEER_BOT.mkv\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➺ **{b_name}</code></pre>**\n\n\n**📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘** જ⁀➴  **{raw_text3}**\n\n∘₊✧───𝗦𝗔𝗠𝗘𝗘𝗥 𝗕𝗛𝗬𝗬𝗔───✧₊∘'
+                #cyt = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🌺 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘** ➥ {name1}.({res}).@CHAT_WITH_SAMEER_BOT.mp4\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➺ **{b_name}</code></pre>**\n\n\n**📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘** જ⁀➴  **{raw_text3}**\n\n∘₊✧───𝗦𝗔𝗠𝗘𝗘𝗥 𝗕𝗛𝗬𝗬𝗔───✧₊∘'
+                cpvod = f'**[🎬] 𝗩𝗶𝗱_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🌺 𝗟𝗘𝗖 𝗡𝗔𝗠𝗘** ➥ {name1}.({res}).@CHAT_WITH_SAMEER_BOT.mkv\n\n\n**🔗𝗩𝗶𝗱𝗲𝗼 𝗨𝗿𝗹 ➤ <a href="{url}">__**Click Here to Watch Video**__</a>**\n\n\n**<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➺ **{b_name}</code></pre>**\n\n\n**📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘** જ⁀➴  **{raw_text3}**\n\n∘₊✧───𝗦𝗔𝗠𝗘𝗘𝗥 𝗕𝗛𝗬𝗬𝗔───✧₊∘'
+                cimg = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🍂 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘** ➥ {name1}.@CHAT_WITH_SAMEER_BOT.jpg\n\n\n**<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘𝗲** ➺ **{b_name}</code></pre>**\n\n\n**📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘** જ⁀➴  **{raw_text3}**\n\n∘₊✧───𝗦𝗔𝗠𝗘𝗘𝗥 𝗕𝗛𝗬𝗬𝗔───✧₊∘'
+                cczip = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🍂 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘** ➥ {name1}.@CHAT_WITH_SAMEER_BOT_JB.zip\n\n\n**<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➺ **{b_name}</code></pre>**\n\n\n**📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘** જ⁀➴  **{raw_text3}**\n\n∘₊✧───𝗦𝗔𝗠𝗘𝗘𝗥 𝗕𝗛𝗬𝗬𝗔───✧₊∘'
+                cc1 = f'**[📁] 𝗣𝗱𝗳_𝗜𝗱 :** {str(count).zfill(3)}.**\n\n\n**🍂 𝗣𝗗𝗙 𝗡𝗔𝗠𝗘** ➥ {name1}.@CHAT_WITH_SAMEER_BOT.pdf\n\n\n**<pre><code>📚 𝗕𝗔𝗧𝗖𝗛 𝗡𝗔𝗠𝗘** ➺ **{b_name}</code></pre>**\n\n\n**📥 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐁𝐘** જ⁀➴  **{raw_text3}**\n\n∘₊✧───𝗦𝗔𝗠𝗘𝗘𝗥 𝗕𝗛𝗬𝗬𝗔───✧₊∘'
           
                 if "drive" in url:
                     try:
