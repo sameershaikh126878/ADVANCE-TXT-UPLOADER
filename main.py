@@ -115,6 +115,7 @@ keyboard = InlineKeyboardMarkup(
 # Image URLs for the random image feature
 image_urls = [
     "https://files.catbox.moe/g7dnnf.jpg",
+    "https://files.catbox.moe/b0ptct.jpg",
     # Add more image URLs as needed
 ]
 random_image_url = random.choice(image_urls) 
