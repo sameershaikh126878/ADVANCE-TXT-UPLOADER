@@ -51,7 +51,7 @@ OWNER_ID =  5500536251 # Replace with the actual owner's user ID
 # List of sudo users (initially empty or pre-populated)
 SUDO_USERS = [7615363859,8144269730,7341059064,6440249117,5682377441,6148865829,1511257208,5817712634,6013909736,6947024366,6237045157,7080838404]
 
-AUTH_CHANNEL = [-1002359983884,-1002538963920]
+AUTH_CHANNEL = -1002359983884
 
 # Function to check if a user is authorized
 def is_authorized(user_id: int) -> bool:
@@ -103,7 +103,7 @@ async def sudo_command(bot: Client, message: Message):
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/A_S_9162") ],
+                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/CHAT_WITH_SAMEER_BOT") ],
                     [
                     InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/TXT_UPDATE_AS") ],
                     [
